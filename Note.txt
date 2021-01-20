@@ -3,3 +3,5 @@ React JS Crash Course 2021 (https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=695s)
 https://github.com/bradtraversy/react-crash-2021
 https://github.com/Annie-Huang/react-task-tracker
 =======================================================================
+
+C:\react>npx create-react-app react-task-tracker
