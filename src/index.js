@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// This is the entry point of the app.
+// the 'root is referring to <div id="root"></div> in the public/index.html
 ReactDOM.render(
   <React.StrictMode>
     <App />
