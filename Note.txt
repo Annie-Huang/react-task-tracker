@@ -5,6 +5,7 @@ https://github.com/Annie-Huang/react-task-tracker
 =======================================================================
 
 C:\react>npx create-react-app react-task-tracker
+C:\react\react-task-tracker>npm i react-icons
 
 class -> className
 for -> htmlFor
