@@ -9,3 +9,4 @@ C:\react\react-task-tracker>npm i react-icons
 
 class -> className
 for -> htmlFor
+(double click the element) -> onDoubleClick
