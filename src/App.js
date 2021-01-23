@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Tasks from './components/Tasks';
 import { useState, useEffect } from 'react';
 import AddTask from './components/AddTask';
+import * as assert from 'assert';
 
 function App() {
   const [showAddTask, setShowAddTask] = useState(false);
@@ -24,10 +25,22 @@ function App() {
   };
 
   // Add Task
-  const addTask = (task) => {
+  /*  const addTask = (task) => {
     const id = Math.floor(Math.random() * 10000) + 1;
     const newTask = { id, ...task };
     setTasks([...tasks, newTask]);
+  };*/
+  const addTask = async (task) => {
+    const res = await fetch('http://localhost:5000/tasks', {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify(task),
+    });
+
+    const data = await res.json();
+    setTasks([...tasks, data]);
   };
 
   // Delete Task
