@@ -8,6 +8,9 @@ C:\react>npx create-react-app react-task-tracker
 C:\react\react-task-tracker>npm i react-icons
 
 C:\react\react-task-tracker>npm run build       << Generate the prod deployment ready folder (build folder)
+C:\react\react-task-tracker>npm i -g serve      << This can serve the static file from a folder
+C:\react\react-task-tracker>serve -s build              << Will serve build folder at port 5000
+C:\react\react-task-tracker>serve -s build -p 8000
 
 How to play with the app:
 - Can delete the task by clicking the cross icon.
