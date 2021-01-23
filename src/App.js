@@ -24,6 +24,13 @@ function App() {
     return data;
   };
 
+  // Fetch Tasks
+  const fetchTask = async (id) => {
+    const res = await fetch(`http://localhost:5000/tasks/${id}`);
+    const data = await res.json();
+    return data;
+  };
+
   // Add Task
   /*  const addTask = (task) => {
     const id = Math.floor(Math.random() * 10000) + 1;
