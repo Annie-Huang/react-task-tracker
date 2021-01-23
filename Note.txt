@@ -13,6 +13,7 @@ C:\react\react-task-tracker>npm i -g serve      << This can serve the static fil
 C:\react\react-task-tracker>serve -s build              << Will serve build folder at port 5000
 C:\react\react-task-tracker>serve -s build -p 8000
 C:\react\react-task-tracker>npm i json-server
+C:\react\react-task-tracker>npm i react-router-dom
 
 C:\react\react-task-tracker>npm run server      << Run the server. Will create db.json if it doesn't exist
 C:\react\react-task-tracker>npm run start       << Run the front end
