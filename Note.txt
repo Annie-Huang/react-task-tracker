@@ -7,6 +7,8 @@ https://github.com/Annie-Huang/react-task-tracker
 C:\react>npx create-react-app react-task-tracker
 C:\react\react-task-tracker>npm i react-icons
 
+C:\react\react-task-tracker>npm run build       << Generate the prod deployment ready folder (build folder)
+
 How to play with the app:
 - Can delete the task by clicking the cross icon.
 - Can toggle reminder by double click the card.
